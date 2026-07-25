@@ -9,6 +9,7 @@ command: lyricade
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
+  - --socket=pulseaudio
   - --device=dri
   - --share=ipc
   - --share=network
@@ -38,6 +39,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/weiteck/lyricade.git
-        tag: v0.2.0
-        commit: "dcbbd3b56e72a11ab210fd5e856bff80c37e1fb5"
+        tag: v0.3.0
+        commit: "ace2b0195cde51d639eb30f0b4b78ca501ffdfc5"
       - cargo-sources.json
