@@ -39,6 +39,6 @@ modules:
     sources:
       - type: git
         url: https://github.com/weiteck/lyricade.git
-        tag: v0.6.0
-        commit: "f6073219ee8f3ec528e618be1f9630125fe24c97"
+        tag: v0.7.0
+        commit: "cad68e42dcd93e30f40e22d64ae98faa333d7930"
       - cargo-sources.json
